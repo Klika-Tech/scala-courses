@@ -1,0 +1,6 @@
+
+prefix operator:        ++1
+
+infix operator:         1 + 2
+
+postfix operator:       1++

@@ -1,0 +1,27 @@
+scala -version
+Scala code runner version 2.11.8
+
+// 1
+def printHello(x: Unit) = { print("Hello"); () }
+printHello: (x: Unit)Unit
+
+printHello()
+warning: there was one deprecation warning; re-run with -deprecation for details
+
+printHello(())
+
+// 2
+val fn: () => Unit = () => { print("Hello") }
+fn: () => Unit = <function0>
+
+def printHello(x: () => Unit) = { print("Hello"); () }
+
+printHello(fn)
+
+// 3
+val fn: Int => Unit = (i) => { print("i = " + i) }
+fn: Int => Unit = <function1>
+
+def printHello(x: Int => Unit) = { println("Hello"); () }
+
+printHello(fn)
