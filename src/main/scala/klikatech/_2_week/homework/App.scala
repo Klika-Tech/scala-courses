@@ -31,7 +31,7 @@ object App extends App {
     }
 
     def getOperationNumber(operators: String, i: Int): Int = {
-      if (operators.length == 1) 0
+      if (operators.length == 0) 0
       else if (Array('*', '/').contains(operators.head)) i
       else getOperationNumber(operators.tail, i + 1)
     }
