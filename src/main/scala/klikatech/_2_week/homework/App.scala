@@ -1,5 +1,7 @@
 package klikatech._2_week.homework
 
+import scala.util.Random
+
 object App extends App {
 
   val plus = I(2) * I(3) +: I(3)
@@ -43,4 +45,14 @@ object App extends App {
     if (operators.length == 0) numbers
     else numbersExec(removeOperation(), doNextOperation())
   }
+
+  val r = new MyRandom
+  println(r.nextInt())
+  println(r.nextInt())
+  println(r.nextInt())
+
+  val r2 = new MyRandom
+  println(r2.nextInt())
+  println(r2.nextInt())
+  println(r2.nextInt())
 }
