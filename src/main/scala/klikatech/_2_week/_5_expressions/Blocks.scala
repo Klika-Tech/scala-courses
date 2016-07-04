@@ -12,7 +12,6 @@ object Blocks {
     }
 
     val x3: Int = {
-        import scala.util._
         println("Hello")
         1 + 2
     }

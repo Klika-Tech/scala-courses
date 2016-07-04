@@ -1,8 +1,6 @@
 package klikatech._1_week._4_implicit_import
 
 /* default imports */
-import java.lang._
-import scala._
 import scala.Predef._
 
 //import scala.collection.{Seq, Map}
