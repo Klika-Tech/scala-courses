@@ -1,0 +1,27 @@
+// Laziness
+http://matt.might.net/articles/implementing-laziness/
+http://docs.scala-lang.org/sips/pending/improved-lazy-val-initialization.html
+
+// DI
+http://di-in-scala.github.io/
+http://scaldi.org/learn/
+
+// Value Classes
+http://docs.scala-lang.org/overviews/core/value-classes.html#summary_of_limitations
+https://ivanyu.me/blog/2014/12/14/value-classes-in-scala/
+http://www.blog.project13.pl/index.php/coding/1769/scala-2-10-and-why-you-will-love-implicit-value-classes/
+
+// Emptiness
+http://programador.ru/scala-and-nothing/
+http://danielwestheide.com/blog/2012/12/19/the-neophytes-guide-to-scala-part-5-the-option-type.html
+http://blog.originate.com/blog/2014/06/15/idiomatic-scala-your-options-do-not-match
+
+// Variance
+http://julien.richard-foy.fr/blog/2013/02/21/be-friend-with-covariance-and-contravariance/
+
+// Existential
+http://typelevel.org/blog/2015/02/26/rawtypes.html
+http://stackoverflow.com/questions/292274/what-is-an-existential-type
+
+// Types of types
+http://ktoso.github.io/scala-types-of-types/
