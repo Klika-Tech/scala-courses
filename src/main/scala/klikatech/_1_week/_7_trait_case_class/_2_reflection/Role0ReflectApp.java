@@ -1,6 +1,8 @@
 package klikatech._1_week._7_trait_case_class._2_reflection;
 
-import java.lang.reflect.*;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
 
 public class Role0ReflectApp {
 

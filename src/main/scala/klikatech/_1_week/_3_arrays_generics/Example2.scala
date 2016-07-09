@@ -1,7 +1,5 @@
 package klikatech._1_week._3_arrays_generics
 
-import scala.util.Try
-
 // Generics
 object Example2 {
     // public final java.util.List list = java.util.Arrays.asList(1, 2, 3, 4);
