@@ -1,0 +1,7 @@
+
+Curring
+    f: (A, B) => R    __curring__     g: A => (B => R)
+
+Un-curring
+    g: A => (B => R)  __un-curring__  f: (A, B) => R
+
