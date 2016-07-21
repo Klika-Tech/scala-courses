@@ -1,0 +1,15 @@
+// Extractors
+http://danielwestheide.com/blog/2012/11/21/the-neophytes-guide-to-scala-part-1-extractors.html
+
+// Pattern Matching
+http://www.scala-lang.org/files/archive/spec/2.11/08-pattern-matching.html
+
+- value match { case pattern => expression }
+- Если паттерн не найден, то будет MatchError (Runtime Exception)
+
+// For Comprehension
+http://www.scala-lang.org/files/archive/spec/2.11/06-expressions.html#for-comprehensions-and-for-loops
+http://www.slideshare.net/MichrafyMustafa/scala-pattern-matching-concepts-and-implementations
+
+http://docs.scala-lang.org/tutorials/FAQ/yield.html
+https://gist.github.com/loicdescotte/4044169 - Scala for comprehension translation helper

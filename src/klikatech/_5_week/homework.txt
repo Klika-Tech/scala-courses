@@ -1,0 +1,39 @@
+1) Реализовать extractor, извлекающий данные из строкового представления:
+- HexExtractor
+- EmailExtractor
+- URLExtractor
+Hint: regular expressions.
+
+2) Таблицы истинности:
+- ((A v В) → (В v С))
+- ¬ А & (B v C)
+
+Пример логической функции:
+  def and(a: Boolean, b: Boolean): Boolean
+
+Пример функции распечатки таблицы истинности:
+  def printTable(f: (Boolean, Boolean, Boolean) => Boolean): Unit
+
+Пример:
+- A & B & C
+
+Вызов: printTable((a: Boolean, b: Boolean, c: Boolean) => and(a, and(b, c)))
+Результат:
+A     B     C     Result
+false false false false
+false false true  false
+false true  false false
+false true  true  false
+true  false false false
+true  false true  false
+true  true  false false
+true  true  true  true
+
+3) Реализовать следующие функции для работы с бинарным деревом:
+- def reduce[A](t: Tree[A], f: (A, A) => A): A
+- def map[A, B](t: Tree[A], f: A => B): Tree[B]
+- def toList[A](t: Tree[A]): List[A]
+Hint: recursion, pattern matching.
+
+4) Реализовать функцию вычисляющую факториал. Обеспечить устойчивость к StackOverflowError и переполнению типа.
+Hint: recursion, pattern matching.

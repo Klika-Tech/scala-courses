@@ -1,0 +1,31 @@
+// 1
+foreach[U](f: A => U) { // procedure => Unit result type
+...
+}
+
+ExternalFor
+InternalFor
+MyRange
+
+// scalac -Xshow-phases
+// scalac -Xprint:parser ForCompile.scala
+ForCompile
+ManyFor
+ForVal
+
+FilterVsWithFilter
+ForIf
+
+// 2
+----------------------------------------------------------------
+what?                in code:                      return type:
+----------------------------------------------------------------
+For Loop             = keywords "for"              Unit
+For Comprehension    = keywords "for" + "yield"    T
+----------------------------------------------------------------
+
+ForYield
+TranslatedFor
+ForYieldFilter
+ForOption
+ManyForYield
