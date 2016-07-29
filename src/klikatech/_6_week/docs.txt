@@ -1,0 +1,12 @@
+// Tuples
+http://michalostruszka.pl/blog/2015/03/30/scala-case-classes-to-and-from-tuples/
+http://www.alessandrolacava.com/blog/scala-case-classes-in-depth/
+
+// Cartesian
+https://en.wikipedia.org/wiki/Algebraic_data_type
+https://en.wikipedia.org/wiki/Product_type
+https://en.wikipedia.org/wiki/Tuple#Type_theory
+https://en.wikipedia.org/wiki/Cartesian_product
+
+// Try
+http://danielwestheide.com/blog/2012/12/26/the-neophytes-guide-to-scala-part-6-error-handling-with-try.html

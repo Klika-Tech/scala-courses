@@ -1,0 +1,5 @@
+
+cartesian product to cartesian product:
+----
+(T, T) => (T, T)
+(A, B) => (C, D)
