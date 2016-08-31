@@ -1,1 +1,1 @@
-# scala-courses
+# Scala Courses by Klika Tech

@@ -1,0 +1,4 @@
+// Performance Characteristics
+
+http://docs.scala-lang.org/overviews/collections/performance-characteristics
+http://www.scala-lang.org/docu/files/collections-api/collections_40.html

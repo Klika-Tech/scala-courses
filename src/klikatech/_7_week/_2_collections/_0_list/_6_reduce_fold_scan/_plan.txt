@@ -1,0 +1,8 @@
+http://stackoverflow.com/questions/25158780/difference-between-reduce-and-foldleft-fold-in-functional-programming-particula
+http://stackoverflow.com/questions/17408880/reduce-fold-or-scan-left-right
+
+reduceLeft and reduceRight cumulate a single result
+
+foldLeft and foldRight cumulate a single result using a start value
+
+scanLeft and scanRight cumulate a collection of intermediate cumulative results using a start value
