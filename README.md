@@ -1,5 +1,7 @@
 # Scala Courses by Klika Tech
 
+Our [youtube] channel about courses.
+
 * [_1_week] - General concepts, introductory part, OOP “No inheritance”
 * [_2_week] - Expression-oriented programming, OOP “Operator overloading”
 * [_3_week] - Scala Type Hierarchy, Lazyness
@@ -8,6 +10,7 @@
 * [_6_week] - Tuples
 * [_7_week] - Generics, Collections: Array, List, Set, Map
 
+[youtube]: <https://www.youtube.com/playlist?list=PLIXocC9C08VThArUgB8GV47wRbg6QBq7l>
 [_1_week]: <https://github.com/Klika-Tech/scala-courses/tree/master/src/klikatech/_1_week>
 [_2_week]: <https://github.com/Klika-Tech/scala-courses/tree/master/src/klikatech/_2_week>
 [_3_week]: <https://github.com/Klika-Tech/scala-courses/tree/master/src/klikatech/_3_week>
